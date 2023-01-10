@@ -1,10 +1,10 @@
 import { useNavigate } from 'react-router-dom'
 
 export const LoginPage = () => {
-    const navegate = useNavegate();
+    const navigate = useNavigate();
 
     const onLogin =()=>{
-        navegate('/',{
+        navigate('/',{
             replace: true
         });
     }
